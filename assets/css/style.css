@@ -15,6 +15,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Container do texto do logo */
+.logo-text-group {
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: center;
+    line-height: 1.2;
+}
+
+/* Nome da empresa (JMM TRADUÇÕES) */
+.logo-text {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--primary-blue);
+    letter-spacing: 1px;
+}
+
+/* Slogan (Inglês e Espanhol...) */
+.logo-subtext {
+    font-size: 0.75rem;      /* Fonte menor */
+    color: var(--text-light); /* Cinza mais suave */
+    font-weight: 500;
+    margin-top: 2px;          /* Pequeno espaço entre as linhas */
+    letter-spacing: 0.5px;
+}
+
+/* Ajuste do alinhamento geral do logo (imagem + texto) */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Espaço entre a imagem e o texto */
+    text-decoration: none;
+}
 
 body {
     font-family: 'Inter', sans-serif;
